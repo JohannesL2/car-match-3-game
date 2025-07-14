@@ -1,0 +1,19 @@
+.game {
+  width: 560px;
+  height: 560px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.game img {
+  width: 70px;
+  height: 70px;
+}
+
+.draggable {
+  cursor: grab;
+  transition: transform 0.2s ease;
+}
